@@ -1,3 +1,4 @@
+
 Ext.define('HelloWorld.view.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'main',
@@ -23,9 +24,12 @@ Ext.define('HelloWorld.view.Main', {
                 },
 
                 html: [
-                    "You've just generated a new Andrea's Sencha Touch 2 project. What you're looking at right now is the ",
-                    "contents of <a target='_blank' href=\"app/view/Main.js\">app/view/Main.js</a> - edit that file ",
-                    "and refresh to change what's rendered here."
+'<br/><br/><br/>',
+'<img src="resources/images/multibug.png" class="jqPuzzle"/>',
+'<h1>Welcome to ladyBug Apps</h1>',
+"<p>You're creating the Getting Started app. This demonstrates how ",
+"to use tabs, lists, and forms to create a simple app</p>",
+'<h2>Sencha Touch</h2>'
                 ].join("")
             },
             {
