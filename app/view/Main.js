@@ -20,16 +20,13 @@ Ext.define('HelloWorld.view.Main', {
                 items: {
                     docked: 'top',
                     xtype: 'titlebar',
-                    title: 'Welcome to Andreas Sencha Touch 2'
+                    title: 'Home'
                 },
 
                 html: [
 '<br/><br/><br/>',
-'<img src="resources/images/multibug.png" class="jqPuzzle"/>',
-'<h1>Welcome to ladyBug Apps</h1>',
-"<p>You're creating the Getting Started app. This demonstrates how ",
-"to use tabs, lists, and forms to create a simple app</p>",
-'<h2>Sencha Touch</h2>'
+'<img src="resources/images/home.png" height="500px" class="jqPuzzle"/>'
+
                 ].join("")
             },
             {
