@@ -9,7 +9,8 @@
     changes and its generated code, it will produce a "merge conflict" that you
     will need to resolve manually.
 */
-
+//@require resources/js/jquery-1.7.1.min.js
+//@require resources/js/jquery.jqpuzzle.min.js
 Ext.application({
     name: 'HelloWorld',
 

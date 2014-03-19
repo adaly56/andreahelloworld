@@ -24,7 +24,7 @@ Ext.define('HelloWorld.view.Main', {
                 },
 
                 html: [
-'<br/><br/><br/>',
+'<br/><br/>',
 '<img src="resources/images/home.png" height="500px" class="jqPuzzle"/>'
 
                 ].join("")

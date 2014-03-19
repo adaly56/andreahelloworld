@@ -39,6 +39,14 @@
      *      }
      */
     "js": [
+{
+    "path": "resources/js/jquery-1.7.1.min.js"
+    
+},
+{
+    "path": "resources/js/jquery.jqpuzzle.min.js"
+    
+},
         {
             "path": "touch/sencha-touch.js",
             "x-bootstrap": true
@@ -73,6 +81,10 @@
     "css": [
         {
             "path": "resources/css/app.css",
+            "update": "delta"
+        },
+        {
+            "path": "resources/css/jquery.jqpuzzle.css",
             "update": "delta"
         }
     ],
