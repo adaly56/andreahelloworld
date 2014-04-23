@@ -1,0 +1,12 @@
+Ext.define('HelloWorld.view.Portfolio',{
+	extend: 'Ext.Carousel',
+	xtype: 'portfoliocarousel'
+	
+	config:[
+	       {
+	    	   title:'Portfolio',
+	    	   iconCls:'star',
+	    	   cls:'portfolio'
+	    	   
+	       }]
+});

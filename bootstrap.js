@@ -743,7 +743,15 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "HelloWorld.view.Main": []
+  "HelloWorld.controller.Main": [],
+  "HelloWorld.model.Vacancy": [],
+  "HelloWorld.view.About": [],
+  "HelloWorld.view.Contact": [],
+  "HelloWorld.view.Feed": [],
+  "HelloWorld.view.Home": [],
+  "HelloWorld.view.Portfolio": [],
+  "HelloWorld.view.Test": [],
+  "HelloWorld.view.Viewport": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1687,7 +1695,25 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
-  "HelloWorld.view.Main": [
-    "widget.main"
-  ]
+  "HelloWorld.controller.Main": [],
+  "HelloWorld.model.Vacancy": [],
+  "HelloWorld.view.About": [
+    "widget.aboutpanel"
+  ],
+  "HelloWorld.view.Contact": [
+    "widget.contactpage"
+  ],
+  "HelloWorld.view.Feed": [
+    "widget.feedpage"
+  ],
+  "HelloWorld.view.Home": [
+    "widget.homepanel"
+  ],
+  "HelloWorld.view.Portfolio": [
+    "widget.portfoliocarousel"
+  ],
+  "HelloWorld.view.Test": [
+    "widget.testpanel"
+  ],
+  "HelloWorld.view.Viewport": []
 });

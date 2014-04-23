@@ -1,10 +1,124 @@
 // The following two lines import the default Sencha Touch theme. If you are building
 // a new theme, remove them and the add your own CSS on top of the base CSS (which
 // is already included in your app.json file).
+
+$base-color: #f5a1c5;
+$alert-color: #a40335;
+$confirm-color: #a40335;
+//$page-bg-color: #f27731;
+//$page-bg-color: #fae1cf;
+$page-bg-color: #ffffff;
+$form-bg-color: $page-bg-color;
+//$base-gradient: 'none';
+$button-gradient: 'none';
+//$button-stroke-weight: 0 !default;
+
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
 @import 'sencha-touch/default';
 @import 'sencha-touch/default/all';
 
-// Custom code goes here..
+@include icon-font('et-line-font', inline-font-files(
+  'et-line-font/et-line.woff', woff,
+  'et-line-font/et-line.ttf', truetype,
+  'et-line-font/et-line.svg', svg
+));
 
-// Examples of using the icon mixin:
-// @include icon('user');
+
+@include icon("home"  , "\e04a", "et-line-font");
+@include icon("profile", "\e041", "et-line-font");
+@include icon("phone"  , "\e004", "et-line-font");
+@include icon("contact"  , "\e028", "et-line-font");
+@include icon("rss"  , "\e060", "et-line-font");
+@include icon("strategy"  , "\e049", "et-line-font");
+@include icon("puzzle"  , "\e026", "et-line-font");
+
+
+.title {
+	.x-title {
+	color:#ffffff;
+        font: {
+            family: "Ubuntu Mono";
+            size: 1.2em;
+	    
+	    
+        }
+	    line-height: 2.5em;
+	    text-shadow: none;
+   	    letter-spacing: 2.5px;
+
+	}
+}
+
+.btn
+{
+background-color: #a40335 !important;
+background-image: none;
+
+}
+
+.x-form-fieldset {//background-color: lighten($page-bg-color, 10%);
+    .x-form-fieldset-inner {
+        border: none;
+        //background: #f5a1c5;
+    }
+    .x-form-fieldset-instructions .x-innerhtml {
+        color: #fff;
+    }
+}
+
+.x-form-label {
+   // background-color: lighten($page-bg-color, 32%);
+}
+
+
+
+.aboutText:before{
+    font-family: 'et-line-font';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    
+    padding-right: 10px;
+    font-size: 60px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    content: "\e049";
+    color: $confirm-color;
+}
+
+.myContainer{
+
+width: 400%;
+//-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+//filter: alpha(opacity=70);
+//-moz-opacity: 0.7;
+//-khtml-opacity: 0.7;
+//opacity: 0.7;
+//border: 20px $base-color inset;
+
+background-color: #ffffff;
+
+padding: 0px;
+
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+
+//-webkit-border-top-right-radius: 0px;
+//-moz-border-radius-topright: 0px;
+//border-top-right-radius: 0px;
+
+
+
+-moz-box-shadow:inset 100px 10px 0px 0px $base-color;
+-webkit-box-shadow:inset 100x 10px 0px 0px $base-color;
+box-shadow:inset 100px 10px 0px 0px $base-color;
+}

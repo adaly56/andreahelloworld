@@ -15,6 +15,12 @@
  */
 
 /* outermost element which holds the full puzzle interface */
+
+
+ .myCls {
+	color: #F00;
+}
+
 .jqPuzzle {
 	padding: 5px;
 	border: 1px solid #222222;

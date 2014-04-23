@@ -1,0 +1,7 @@
+Ext.define('HelloWorld.view.Viewport',{
+	extend: 'Ext.TabPanel',
+	
+	config:{}
+	
+	
+});

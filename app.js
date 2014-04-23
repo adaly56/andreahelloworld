@@ -9,18 +9,27 @@
     changes and its generated code, it will produce a "merge conflict" that you
     will need to resolve manually.
 */
-//@require resources/js/jquery-1.7.1.min.js
-//@require resources/js/jquery.jqpuzzle.min.js
+
+//line in demo
+
+/*Ext.Loader.setConfig({
+	enabled:true
+});*/
+
 Ext.application({
     name: 'HelloWorld',
 
     requires: [
         'Ext.MessageBox'
+        
+    
     ],
-
-    views: [
-        'Main'
-    ],
+    
+    controllers: ['Main'],
+    
+   
+		   
+                     
 
     icon: {
         '57': 'resources/icons/Icon.png',
@@ -43,9 +52,8 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
-
-        // Initialize the main view
-        Ext.Viewport.add(Ext.create('HelloWorld.view.Main'));
+        Ext.create('HelloWorld.view.Viewport');
+        
     },
 
     onUpdated: function() {
@@ -60,3 +68,5 @@ Ext.application({
         );
     }
 });
+
+
