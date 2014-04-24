@@ -1,12 +1,12 @@
-{
-    "Users": [
+Ext.data.JsonP.callback1({
+    users: [
         {
-            "id": 123,
-            "name": "Andrea"
+            id: 1,
+            name: "Ed Spencer"     
         },
         {
             "id": 456,
             "name": "Daly"
         }
     ]
-}
+});
