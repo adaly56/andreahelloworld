@@ -16,7 +16,11 @@
 
 /* outermost element which holds the full puzzle interface */
 
-
+ iframe.noScrolling{
+           /*width: 100%; /*or any other size*/
+           /*height: 100%; /*or any other size*/
+          overflow-y: hidden;
+        }
  .myCls {
 	color: #F00;
 }

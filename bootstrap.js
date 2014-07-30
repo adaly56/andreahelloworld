@@ -750,7 +750,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "HelloWorld.view.Feed": [],
   "HelloWorld.view.Home": [],
   "HelloWorld.view.Portfolio": [],
-  "HelloWorld.view.Test": [],
+  "HelloWorld.view.Resume": [],
   "HelloWorld.view.Viewport": []
 });
 Ext.ClassManager.addNameAliasMappings({
@@ -1712,8 +1712,8 @@ Ext.ClassManager.addNameAliasMappings({
   "HelloWorld.view.Portfolio": [
     "widget.portfoliocarousel"
   ],
-  "HelloWorld.view.Test": [
-    "widget.testpanel"
+  "HelloWorld.view.Resume": [
+    "widget.resume"
   ],
   "HelloWorld.view.Viewport": []
 });

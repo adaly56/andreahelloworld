@@ -6,7 +6,7 @@ xtype: 'feedpage',
 config:{
 	
     
-    title: 'Blog',
+    title: 'News',
     cls:'title',
     iconCls: 'rss',
     displayField: 'title',

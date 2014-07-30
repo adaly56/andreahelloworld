@@ -55,11 +55,11 @@ Ext.define('HelloWorld.view.Viewport',{
 
 		    	   
 		       },
-		       {
+		       /*{
 		    	   xtype: 'contactpage'
-		       },
+		       },*/
 			{
-		    	   xtype: 'testpanel'
+		    	   xtype: 'resume'
 
 
 

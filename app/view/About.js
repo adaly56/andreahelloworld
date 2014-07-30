@@ -13,14 +13,14 @@ Ext.define('HelloWorld.view.About', {
     	cls:'about',
   layout:{
                 type:'vbox',
-                align:'center'
+                align:'left'
            },
     
         items: [
 		{
                 dock: 'top',
                 xtype: 'toolbar',
-                title: 'About Us',
+                title: 'About',
 		cls:'title'
                 },
       
@@ -29,17 +29,22 @@ Ext.define('HelloWorld.view.About', {
                 html: [ '<br/>',
 			"<div class='myContainer'>",
 			'<br/>',
-                       	"<div id='who' class='aboutText'>Who</div>",
-                       	'<br/><br/>',
-				"<div id='what' class='aboutText'>What</div>",
-                       	'<br/><br/>',
-				"<div id='why' class='aboutText'>When</div>",
-                       	'<br/><br/>',
-				"<div id='when' class='aboutText'>Why</div>",
-                       	'<br/><br/>',
-				"<div id='where' class='aboutText'>Where</div>",
-                       	'<br/><br/>',
-			
+                       	"<div  id='who'  class='aboutText'>Hello World!</div>",
+                       	'<br/> ',
+				"<div id='what' class='aboutText'>NAME: andrea</div>",
+                       	'<br/>',
+				"<div id='why' class='aboutText'>AGE: 40+</div>",
+                       	'<br/>',
+				"<div id='when' class='aboutText'>FROM: glasgow</div>",
+                       	'<br/>',
+				"<div id='where' class='aboutText'>STAR SIGN: libra</div>",
+                       	'<br/>',
+                "<div id='where' class='aboutText'>BIGGEST ACHIEVEMENT: motherhood</div>",
+                       	'<br/>',
+                "<div id='where' class='aboutText'>FAVOURITE CAKE: fresh cream meringue</div>",
+                         '<br/>',
+                "<div id='where' class='aboutText'>DEVELOPER YEARS: 10+</div>",
+                         '<br/>',
                         '</div>'
                        	//'<img src="resources/images/home.png" height="500px" class="jqPuzzle"/>'
                         //'<img src="http://src.sencha.io/http://andreasappexample.cloudcontrolled.com/resources/images/home.png"  class="myCls"/>'

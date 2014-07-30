@@ -9,11 +9,11 @@ Ext.define('HelloWorld.view.Home', {
     config: {
     	
     	title:'Home',
-    	iconCls:'home',
+    	iconCls:'puzzle',
     	cls:'title',
   layout:{
-                type:'vbox',
-                align:'center'
+                type:'fit',
+                align:'left'
            },
     
         items: [
@@ -26,9 +26,11 @@ Ext.define('HelloWorld.view.Home', {
             {
             	
                 html: [
+                       
+                       '<iframe width="100%" height="800px" class="noScrolling" scrolling="no" seamless="seamless" src="http://ladybugdesign.co.uk/slidingpuzzle/index.html"></iframe>'
                        //	"<div id='div1' class='myCls'>hi</div>",
-                       	'<br/>',
-                       	'<img src="resources/images/home2.png"  class="jqPuzzle"/>'
+                       	//'<br/>',
+                       	//'<img src="resources/images/home2.png"  class="jqPuzzle"/>'
                        // '<img src="http://src.sencha.io/http://andreasappexample.cloudcontrolled.com/resources/images/home2.png"  class="myCls"/>'
 					].join("")
                 

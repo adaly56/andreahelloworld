@@ -1,2 +1,2 @@
 // @tag full-page
-// @require /home/developer/example/helloworld/app.js
+// @require /home/developer/public_html/helloworld/app.js
