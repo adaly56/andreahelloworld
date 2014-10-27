@@ -3,6 +3,8 @@
 // is already included in your app.json file).
 
 $base-color: #f5a1c5;
+$font-family: "rodusround100","serif"!default;
+//$font-family: "cambria","serif"!default;
 $alert-color: #a40335;
 $confirm-color: #a40335;
 //$page-bg-color: #f27731;
@@ -14,9 +16,10 @@ $button-gradient: 'none';
 //$button-stroke-weight: 0 !default;
 
 
-@import url(http://fonts.googleapis.com/css?family=Oswald:700);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+//@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+//@import url(http://fonts.googleapis.com/css?family=Lobster);
+//@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
 @import 'sencha-touch/default';
 @import 'sencha-touch/default/all';
 
@@ -26,6 +29,11 @@ $button-gradient: 'none';
   'et-line-font/et-line.svg', svg
 ));
 
+@include icon-font('rodusround100', inline-font-files(
+  'rodusround100/rodusround100-webfont.woff', woff,
+  'rodusround100/rodusround100-webfont.eot', embeddedopentype,
+  'rodusround100/rodusround100-webfont.svg', svg
+));
 
 @include icon("home"  , "\e04a", "et-line-font");
 @include icon("profile", "\e041", "et-line-font");
@@ -40,7 +48,8 @@ $button-gradient: 'none';
 	.x-title {
 	color:#ffffff;
         font: {
-            family: "Ubuntu Mono";
+        	family: "rodusround100";
+            //family: "Ubuntu Mono";
             size: 1.2em;
 	    
 	    
@@ -85,18 +94,38 @@ background-image: none;
     line-height: 1;
     
     padding-right: 10px;
-    font-size: 60px;
+    font-size: 400%;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
     content: "\e049";
+    color: $base-color;
+}
+
+.aboutText{
+    font-size: large;
+    font-weight: bold;
     color: $confirm-color;
 }
 
+.myText{
+    font-size: medium;
+    color: #000;
+    font-family: 'rodusround100';
+    margin-left:5%;
+}
+/*.aboutText::first-letter
+{
+font-size:200%;
+
+} */
+
 .myContainer{
 
-width: 400%;
+width: 500%;
+margin-top:3%;
+margin-left:20px;
 //-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 //filter: alpha(opacity=70);
 //-moz-opacity: 0.7;
@@ -118,7 +147,30 @@ border-radius: 50px;
 
 
 
--moz-box-shadow:inset 100px 10px 0px 0px $base-color;
--webkit-box-shadow:inset 100x 10px 0px 0px $base-color;
-box-shadow:inset 100px 10px 0px 0px $base-color;
+-moz-box-shadow:inset 100px 10px 0px 0px #f27731;
+-webkit-box-shadow:inset 100x 10px 0px 0px #f27731;
+box-shadow:inset 100px 10px 0px 0px #f27731;
+}
+
+
+.myHomeContainer{
+
+
+margin-top:0px;
+
+}
+
+#topsbg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  //height: 23px;
+}
+
+#hometops {
+   width: 100% ;
+  margin-left: auto ;
+  margin-right: auto ;
 }

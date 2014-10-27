@@ -4,7 +4,7 @@ Ext.define('HelloWorld.view.Portfolio',{
 	
 	config:
 	       {
-	    	   title:'Apps',
+	    	   title:'Portfolio',
 	    	   iconCls:'phone',
 	    	   
 	    	   items:[
@@ -15,6 +15,10 @@ Ext.define('HelloWorld.view.Portfolio',{
                 title: 'Portfolio',
 		cls:'title'
                 },
+                {
+	          		xtype: 'image',
+	          		src:'resources/images/glasgow2014.png'
+	          	},
 	    	    {
 	          		xtype: 'image',
 	          		src:'resources/images/discovery2013.png'

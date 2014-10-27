@@ -26,8 +26,9 @@ Ext.define('HelloWorld.view.Home', {
             {
             	
                 html: [
-                       
-                       '<iframe width="100%" height="800px" class="noScrolling" scrolling="no" seamless="seamless" src="http://ladybugdesign.co.uk/slidingpuzzle/index.html"></iframe>'
+                       '<div class="block"><div class="centered"><div class="myHomeContainer" style="width: 900px; margin-left: auto; margin-right: auto;"><iframe width="100%" height="800px" frameBorder="0" style="-webkit-transform:scale(0.6);	 -moz-transform: scale(0.6); " class="noScrolling" scrolling="no" seamless="seamless" src="http://ladybugdesign.co.uk/slidingpuzzle/index.html"></iframe></div></div></div>'
+                      // '<iframe width="100%" height="800px" class="noScrolling" scrolling="no" seamless="seamless" src="http://ladybugdesign.co.uk/slidingpuzzle/index.html"></iframe>'
+                     //  '<div id="tops"><iframe width="100%" height="800px" frameBorder="0" style="-webkit-transform:scale(0.7);	 -moz-transform: scale(0.7); " class="noScrolling" scrolling="no" seamless="seamless" src="http://ladybugdesign.co.uk"></iframe></div>'
                        //	"<div id='div1' class='myCls'>hi</div>",
                        	//'<br/>',
                        	//'<img src="resources/images/home2.png"  class="jqPuzzle"/>'

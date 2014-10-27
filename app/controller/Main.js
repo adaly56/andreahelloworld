@@ -2,7 +2,7 @@ Ext.define('HelloWorld.controller.Main',{
 	extend:'Ext.app.Controller',
 	//items should be placed in config other way depreceated
 	config:{
-		views:['Home', 'Portfolio', 'Feed',  'About', 'Resume'],
+		views:['Home', 'Portfolio', 'Feed',  'About', 'WorkHistory',  'Resume', 'VoluntaryWork', 'Community', 'Education'],
 		models:['Vacancy']
 }	,
 

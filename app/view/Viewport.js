@@ -6,18 +6,33 @@ Ext.define('HelloWorld.view.Viewport',{
 		tabBarPosition: 'bottom',
 		
 		items:[
-		       
+		       {
+		    	   xtype:'portfoliocarousel'
+		    	  
+		       },
 		       {
 		    	   xtype:'homepanel'
 		       },
 
-			{
+		       {
 		    	   xtype: 'aboutpanel'
 		       },
 
+		     /*
+		       
 		       {
-		    	   xtype:'portfoliocarousel'
+		    	   xtype:'workpanel'
 		       },
+		       
+		       {
+		    	   xtype:'voluntarypanel'
+		       },*/
+		       {
+		    	   xtype:'communitypanel'
+		       },/*
+		       {
+		    	   xtype:'educationcarousel'
+		       },*/
 		       {
 		    	   xtype:'feedpage',
 
@@ -54,16 +69,16 @@ Ext.define('HelloWorld.view.Viewport',{
 	               }
 
 		    	   
-		       },
+		       }
 		       /*{
 		    	   xtype: 'contactpage'
-		       },*/
+		       },
 			{
 		    	   xtype: 'resume'
 
 
 
-		       }
+		       }*/
 
 		       ]
 	}

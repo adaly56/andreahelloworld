@@ -746,12 +746,16 @@ Ext.ClassManager.addNameAlternateMappings({
   "HelloWorld.controller.Main": [],
   "HelloWorld.model.Vacancy": [],
   "HelloWorld.view.About": [],
+  "HelloWorld.view.Community": [],
   "HelloWorld.view.Contact": [],
+  "HelloWorld.view.Education": [],
   "HelloWorld.view.Feed": [],
   "HelloWorld.view.Home": [],
   "HelloWorld.view.Portfolio": [],
   "HelloWorld.view.Resume": [],
-  "HelloWorld.view.Viewport": []
+  "HelloWorld.view.Viewport": [],
+  "HelloWorld.view.VoluntaryWork": [],
+  "HelloWorld.view.WorkHistory": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1700,8 +1704,14 @@ Ext.ClassManager.addNameAliasMappings({
   "HelloWorld.view.About": [
     "widget.aboutpanel"
   ],
+  "HelloWorld.view.Community": [
+    "widget.communitypanel"
+  ],
   "HelloWorld.view.Contact": [
     "widget.contactpage"
+  ],
+  "HelloWorld.view.Education": [
+    "widget.educationcarousel"
   ],
   "HelloWorld.view.Feed": [
     "widget.feedpage"
@@ -1715,5 +1725,11 @@ Ext.ClassManager.addNameAliasMappings({
   "HelloWorld.view.Resume": [
     "widget.resume"
   ],
-  "HelloWorld.view.Viewport": []
+  "HelloWorld.view.Viewport": [],
+  "HelloWorld.view.VoluntaryWork": [
+    "widget.portfoliocarousel"
+  ],
+  "HelloWorld.view.WorkHistory": [
+    "widget.workpanel"
+  ]
 });
